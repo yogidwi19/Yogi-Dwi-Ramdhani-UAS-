@@ -1,0 +1,11 @@
+import 'package:flutter/material.dart';
+void main(){
+runApp(new MaterialApp(home: new Halsatu(), title : "navigasi",));
+}
+class Halsatu extends StatelessWidget {
+@override
+widget build(BuildContext context) {
+return new scaffold(
+);
+}
+}
