@@ -1,0 +1,21 @@
+class NamaClass {
+  // member/properti
+  int a;
+  int b;
+  int c;
+  
+  // constructor
+  NamaClass(this.b, {this.c});
+  // method - method
+  setA(int a){
+    this.a = a;
+  }
+  
+  showAB() {
+    print("A: $a, B: $b");
+  }
+  
+  showC() {
+    print(c ?? "C belum di set");
+  }
+}
